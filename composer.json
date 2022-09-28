@@ -3,6 +3,7 @@
     "description": "Example for the use of symfony/ux twig components in Shopware6 plugin scope",
     "type": "shopware-platform-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "extra": {
         "shopware-plugin-class": "MyPlugin\\MyPlugin",
         "author": "Martin Schindler",
