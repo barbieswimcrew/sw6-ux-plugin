@@ -1,0 +1,32 @@
+{
+    "name": "barbieswimcrew/sw6-ux-plugin",
+    "description": "Example for the use of symfony/ux twig components in Shopware6 plugin scope",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "extra": {
+        "shopware-plugin-class": "MyPlugin\\MyPlugin",
+        "author": "Martin Schindler",
+        "label": {
+            "de-DE": "Beispiel für die Verwendung von symfony/ux twig-Komponenten im Shopware6-Plugin-Bereich",
+            "en-GB": "Example for the use of symfony/ux twig components in Shopware6 plugin scope"
+        }
+    },
+    "require": {
+        "php": ">= 8.0",
+        "symfony/ux-twig-component": "^2.4"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyPlugin\\Tests\\": "tests/"
+        }
+    }
+}
