@@ -1,0 +1,9 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{% block layout_footer_navigation_columns %}
+    {{ parent() }}
+
+    <div class="col-md-4 footer-column">
+        {{ component('product-count', {'context': context}) }}
+    </div>
+{% endblock %}
